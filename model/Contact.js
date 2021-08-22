@@ -3,18 +3,15 @@ const Schema = mongoose.Schema;
 
 const ContactSchema = new Schema({
   name: {
-    type: String,
-    required: true
+    type: String
   },
 
   email: {
-    type: String,
-    required: true,
+    type: String
   },
 
   phone: {
-    type: String,
-    required: true,
+    type: String
   },
 
   message: {
