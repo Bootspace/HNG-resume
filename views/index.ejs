@@ -125,20 +125,20 @@
           <hr>
           <form method="POST" action="/contactinfo" id="form">
             <div class="mb-3 pt-2">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your name">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your name" required>
             </div>
         
         
             <div class="mb-3">
-              <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email">
+              <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email" required>
             </div>
 
             <div class="mb-3">
-              <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone numer">
+              <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone numer" required>
             </div>
 
             <div class="mb-3">
-              <textarea class="form-control" name="message" placeholder="Enter your message" id="message" rows="3"></textarea>
+              <textarea class="form-control" name="message" placeholder="Enter your message" id="message" rows="3" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
